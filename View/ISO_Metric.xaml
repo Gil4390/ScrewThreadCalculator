@@ -1,0 +1,65 @@
+﻿<Window x:Class="Thread_Calculator.ISO_Metric"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Thread_Calculator"
+        mc:Ignorable="d"
+        Title="ISO_Metric" Height="800" Width="1000"
+        FontSize="16"
+        Closed="Window_Closed">
+    <Grid>
+        <ComboBox x:Name="cBox" ItemsSource="{Binding SPlist}" IsEnabled="False" HorizontalAlignment="Left" Margin="230,26,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cBox_SelectionChanged"/>
+        <Button Content="Show" IsEnabled="False" x:Name="btn" HorizontalAlignment="Left" Margin="454,48,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+
+        <Label Content="Externel" FontSize="18" HorizontalAlignment="Left" Margin="250,184,0,0" VerticalAlignment="Top"/>
+        <Label Content="Major Diameter (d1)" HorizontalAlignment="Left" Margin="40,245,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.001,0.567"/>
+        <Label Content="{Binding Exd1max, Mode=OneWay}" HorizontalAlignment="Left" Margin="215,245,0,0" VerticalAlignment="Top"/>
+        <Label Content="-" HorizontalAlignment="Left" Margin="272,245,0,0" VerticalAlignment="Top"/>
+        <Label Content="{Binding Exd1min, Mode=OneWay}" HorizontalAlignment="Left" Margin="313,245,0,0" VerticalAlignment="Top"/>
+
+        <Label Content="Pitch Diameter (d2)" HorizontalAlignment="Left" Margin="40,295,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.001,0.567"/>
+        <Label Content="{Binding Exd2max, Mode=OneWay}" HorizontalAlignment="Left" Margin="215,295,0,0" VerticalAlignment="Top"/>
+        <Label Content="-" HorizontalAlignment="Left" Margin="272,295,0,0" VerticalAlignment="Top"/>
+        <Label Content="{Binding Exd2min, Mode=OneWay}" HorizontalAlignment="Left" Margin="313,295,0,0" VerticalAlignment="Top"/>
+
+        <Label Content="Minor Diameter (d3)" HorizontalAlignment="Left" Margin="40,340,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.001,0.567"/>
+        <Label Content="{Binding Exd3max, Mode=OneWay}" HorizontalAlignment="Left" Margin="215,340,0,0" VerticalAlignment="Top"/>
+        <Label Content="-" HorizontalAlignment="Left" Margin="272,340,0,0" VerticalAlignment="Top"/>
+        <Label Content="{Binding Exd3min, Mode=OneWay}" HorizontalAlignment="Left" Margin="313,340,0,0" VerticalAlignment="Top"/>
+
+        <Label Content="max" HorizontalAlignment="Left" Margin="220,381,0,0" VerticalAlignment="Top" RenderTransformOrigin="0,0.425"/>
+        <Label Content="min" HorizontalAlignment="Left" Margin="316,381,0,0" VerticalAlignment="Top" RenderTransformOrigin="0,0.425"/>
+
+
+        <Label Content="Internal" FontSize="18" HorizontalAlignment="Left" Margin="250,430,0,0" VerticalAlignment="Top"/>
+        <Label Content="{Binding Ind1max, Mode=OneWay}" HorizontalAlignment="Left" Margin="207,495,0,0" VerticalAlignment="Top"/>
+        <Label Content="-" HorizontalAlignment="Left" Margin="264,495,0,0" VerticalAlignment="Top"/>
+        <Label Content="{Binding Ind1min, Mode=OneWay}" HorizontalAlignment="Left" Margin="305,495,0,0" VerticalAlignment="Top"/>
+        <Label Content="{Binding Ind2max, Mode=OneWay}" HorizontalAlignment="Left" Margin="207,545,0,0" VerticalAlignment="Top"/>
+        <Label Content="-" HorizontalAlignment="Left" Margin="264,545,0,0" VerticalAlignment="Top"/>
+        <Label Content="{Binding Ind2min, Mode=OneWay}" HorizontalAlignment="Left" Margin="305,545,0,0" VerticalAlignment="Top"/>
+        <Label Content="{Binding Ind3max, Mode=OneWay}" HorizontalAlignment="Left" Margin="207,590,0,0" VerticalAlignment="Top"/>
+        <Label Content="-" HorizontalAlignment="Left" Margin="264,590,0,0" VerticalAlignment="Top"/>
+        <Label Content="{Binding Ind3min, Mode=OneWay}" HorizontalAlignment="Left" Margin="305,590,0,0" VerticalAlignment="Top"/>
+        <Label Content="max" HorizontalAlignment="Left" Margin="212,631,0,0" VerticalAlignment="Top" RenderTransformOrigin="0,0.425"/>
+        <Label Content="min" HorizontalAlignment="Left" Margin="308,631,0,0" VerticalAlignment="Top" RenderTransformOrigin="0,0.425"/>
+        <RadioButton Content="Normal" x:Name="NormalRadioButton" HorizontalAlignment="Left" Margin="114,30,0,0" VerticalAlignment="Top" Checked="NormalRadioButton_Checked"/>
+        <RadioButton Content="Custom" x:Name="CustomRadioButton" HorizontalAlignment="Left" Margin="114,80,0,0" VerticalAlignment="Top" Checked="CustomRadioButton_Checked"/>
+        <TextBox Text="{Binding Size, Mode=OneWayToSource}" x:Name="SizeTxtBox" IsEnabled="False" HorizontalAlignment="Left" Margin="230,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="56"/>
+        <TextBox Text="{Binding Pitch, Mode=OneWayToSource}" x:Name="PitchTxtBox" IsEnabled="False" HorizontalAlignment="Left" Margin="339,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="61"/>
+        <Label Content="M:" HorizontalAlignment="Left" Margin="200,73,0,0" VerticalAlignment="Top"/>
+        <Label Content="P:" HorizontalAlignment="Left" Margin="315,73,0,0" VerticalAlignment="Top"/>
+
+        <Label Content="{Binding ErrorText, Mode=OneWay}" Foreground="Red" HorizontalAlignment="Left" Margin="290,112,0,0" VerticalAlignment="Top"/>
+
+        <Rectangle HorizontalAlignment="Left" Height="1" Margin="110,67,0,0" Stroke="Black" VerticalAlignment="Top" Width="309"/>
+
+        <Button Content="Back" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <Rectangle HorizontalAlignment="Left" Height="1" Margin="116,417,0,0" Stroke="Black" VerticalAlignment="Top" Width="309"/>
+        <Label Content="Major Diameter (d1)" HorizontalAlignment="Left" Margin="40,495,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.001,0.567"/>
+        <Label Content="Pitch Diameter (d2)" HorizontalAlignment="Left" Margin="40,545,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.001,0.567"/>
+        <Label Content="Minor Diameter (d3)" HorizontalAlignment="Left" Margin="40,590,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.001,0.567"/>
+
+    </Grid>
+</Window>

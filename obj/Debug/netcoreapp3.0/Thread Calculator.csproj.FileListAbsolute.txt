@@ -1,0 +1,8 @@
+C:\Users\Gil Khais\source\repos\Thread Calculator\obj\Debug\netcoreapp3.0\Thread Calculator.csprojAssemblyReference.cache
+C:\Users\Gil Khais\source\repos\Thread Calculator\obj\Debug\netcoreapp3.0\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\Gil Khais\source\repos\Thread Calculator\obj\Debug\netcoreapp3.0\Thread Calculator.csproj.ResolveComReference.cache
+C:\Users\Gil Khais\source\repos\Thread Calculator\obj\Debug\netcoreapp3.0\View\ISO_Metric.g.cs
+C:\Users\Gil Khais\source\repos\Thread Calculator\obj\Debug\netcoreapp3.0\View\MainWindow.g.cs
+C:\Users\Gil Khais\source\repos\Thread Calculator\obj\Debug\netcoreapp3.0\App.g.cs
+C:\Users\Gil Khais\source\repos\Thread Calculator\obj\Debug\netcoreapp3.0\Thread Calculator_MarkupCompile.cache
+C:\Users\Gil Khais\source\repos\Thread Calculator\obj\Debug\netcoreapp3.0\Thread Calculator_MarkupCompile.lref

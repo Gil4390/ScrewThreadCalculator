@@ -1,0 +1,26 @@
+C:\Users\Gil Khais\source\repos\Thread Calculator\bin\Debug\net5.0-windows\Thread Calculator.exe
+C:\Users\Gil Khais\source\repos\Thread Calculator\bin\Debug\net5.0-windows\Thread Calculator.deps.json
+C:\Users\Gil Khais\source\repos\Thread Calculator\bin\Debug\net5.0-windows\Thread Calculator.runtimeconfig.json
+C:\Users\Gil Khais\source\repos\Thread Calculator\bin\Debug\net5.0-windows\Thread Calculator.runtimeconfig.dev.json
+C:\Users\Gil Khais\source\repos\Thread Calculator\bin\Debug\net5.0-windows\Thread Calculator.dll
+C:\Users\Gil Khais\source\repos\Thread Calculator\bin\Debug\net5.0-windows\ref\Thread Calculator.dll
+C:\Users\Gil Khais\source\repos\Thread Calculator\bin\Debug\net5.0-windows\Thread Calculator.pdb
+C:\Users\Gil Khais\source\repos\Thread Calculator\obj\Debug\net5.0-windows\Thread Calculator.csprojAssemblyReference.cache
+C:\Users\Gil Khais\source\repos\Thread Calculator\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\Gil Khais\source\repos\Thread Calculator\obj\Debug\net5.0-windows\Thread Calculator_MarkupCompile.cache
+C:\Users\Gil Khais\source\repos\Thread Calculator\obj\Debug\net5.0-windows\Thread Calculator_MarkupCompile.lref
+C:\Users\Gil Khais\source\repos\Thread Calculator\obj\Debug\net5.0-windows\Thread Calculator.g.resources
+C:\Users\Gil Khais\source\repos\Thread Calculator\obj\Debug\net5.0-windows\Thread Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gil Khais\source\repos\Thread Calculator\obj\Debug\net5.0-windows\Thread Calculator.AssemblyInfoInputs.cache
+C:\Users\Gil Khais\source\repos\Thread Calculator\obj\Debug\net5.0-windows\Thread Calculator.AssemblyInfo.cs
+C:\Users\Gil Khais\source\repos\Thread Calculator\obj\Debug\net5.0-windows\Thread Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Gil Khais\source\repos\Thread Calculator\obj\Debug\net5.0-windows\Thread Calculator.dll
+C:\Users\Gil Khais\source\repos\Thread Calculator\obj\Debug\net5.0-windows\ref\Thread Calculator.dll
+C:\Users\Gil Khais\source\repos\Thread Calculator\obj\Debug\net5.0-windows\Thread Calculator.pdb
+C:\Users\Gil Khais\source\repos\Thread Calculator\obj\Debug\net5.0-windows\Thread Calculator.genruntimeconfig.cache
+C:\Users\Gil Khais\source\repos\Thread Calculator\obj\Debug\net5.0-windows\View\ISO_Metric.g.cs
+C:\Users\Gil Khais\source\repos\Thread Calculator\obj\Debug\net5.0-windows\View\MainWindow.g.cs
+C:\Users\Gil Khais\source\repos\Thread Calculator\obj\Debug\net5.0-windows\View\ISO_Metric.baml
+C:\Users\Gil Khais\source\repos\Thread Calculator\obj\Debug\net5.0-windows\View\MainWindow.baml
+C:\Users\Gil Khais\source\repos\Thread Calculator\obj\Debug\net5.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\Gil Khais\source\repos\Thread Calculator\obj\Debug\net5.0-windows\Thread Calculator.csproj.ResolveComReference.cache
